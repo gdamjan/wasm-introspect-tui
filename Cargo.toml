@@ -1,0 +1,13 @@
+[package]
+name = "wasm-introspect-tui"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+wasmtime = { version = "44", features = ["component-model"] }
+ratatui = "0.30"
+crossterm = "0.29"
+clap = { version = "4", features = ["derive"] }
+anyhow = "1"
+wasmparser = "0.247"
+wasmprinter = "0.247"

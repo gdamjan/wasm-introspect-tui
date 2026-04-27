@@ -1,0 +1,8 @@
+package example:adder;
+
+interface add {
+  add: func(x: u32, y: u32) -> u32;
+}
+world adder {
+  export add;
+}
